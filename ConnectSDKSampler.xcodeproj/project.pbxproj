@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		30BC37921653E5AA94E63B57 /* libPods-ConnectSDKSamplerTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FED4874226E1EE3CB676083F /* libPods-ConnectSDKSamplerTests.a */; };
+		442762D31B012B280045DC90 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 442762D21B012B280045DC90 /* Bolts.framework */; };
+		442762D81B012CCD0045DC90 /* AmazonFling.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 442762D71B012CCD0045DC90 /* AmazonFling.framework */; };
+		442762DA1B012CF80045DC90 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 442762D91B012CF80045DC90 /* AdSupport.framework */; };
+		442762DC1B012D260045DC90 /* libc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 442762DB1B012D260045DC90 /* libc++.dylib */; };
+		44D72F221AC4D16B006983FB /* libConnectSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 44D72F1F1AC4D161006983FB /* libConnectSDK.a */; };
+		44D72F241AC4D196006983FB /* GoogleCast.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44D72F231AC4D196006983FB /* GoogleCast.framework */; };
+		44E98FF31B20A7A80043BC70 /* ConnectSDKSamplerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 44E98FF21B20A7A80043BC70 /* ConnectSDKSamplerTests.m */; };
+		BEF557D69A067687221350BD /* libPods-ConnectSDKSampler.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CDEAB448DFEC83449A0DFE1 /* libPods-ConnectSDKSampler.a */; };
 		EA099895185146830072824C /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = EA099894185146830072824C /* libz.dylib */; };
 		EA0998A2185147070072824C /* libicucore.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = EA0998A1185147070072824C /* libicucore.dylib */; };
 		EA09EFA61875E7EB008E6839 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA09EFA51875E7EB008E6839 /* MainStoryboard.storyboard */; };
@@ -42,7 +51,53 @@
 		EA9E48B0186DFCFD002DE134 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EA9E48A5186DFCFD002DE134 /* main.m */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		44ADEAB41B1903E900D17687 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 44D72F181AC4D161006983FB /* ConnectSDK.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 449A37021B0FDC1C00E47DAC;
+			remoteInfo = ConnectSDKIntegrationTests;
+		};
+		44D72F1E1AC4D161006983FB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 44D72F181AC4D161006983FB /* ConnectSDK.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = EA61EB1018FE485B00D75696;
+			remoteInfo = ConnectSDK;
+		};
+		44D72F201AC4D161006983FB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 44D72F181AC4D161006983FB /* ConnectSDK.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4480857A1A12A7BE00E13938;
+			remoteInfo = ConnectSDKTests;
+		};
+		44E98FF41B20A7A80043BC70 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EA7E00A4184402B20089FA62 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EA7E00AB184402B20089FA62;
+			remoteInfo = ConnectSDKSampler;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		17C49D74943D3BE5906150DB /* Pods-ConnectSDKSampler.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ConnectSDKSampler.release.xcconfig"; path = "Pods/Target Support Files/Pods-ConnectSDKSampler/Pods-ConnectSDKSampler.release.xcconfig"; sourceTree = "<group>"; };
+		3BBE8DDEDABB1EAFF0E141E1 /* Pods-ConnectSDKSampler.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ConnectSDKSampler.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ConnectSDKSampler/Pods-ConnectSDKSampler.debug.xcconfig"; sourceTree = "<group>"; };
+		3CDEAB448DFEC83449A0DFE1 /* libPods-ConnectSDKSampler.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ConnectSDKSampler.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DA1D65DFB299982184DDB83 /* Pods-ConnectSDKSamplerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ConnectSDKSamplerTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ConnectSDKSamplerTests/Pods-ConnectSDKSamplerTests.release.xcconfig"; sourceTree = "<group>"; };
+		442762D21B012B280045DC90 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Bolts.framework; path = "../Connect-SDK-iOS/modules/firetv/Frameworks/Bolts.framework"; sourceTree = "<group>"; };
+		442762D71B012CCD0045DC90 /* AmazonFling.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AmazonFling.framework; path = "../Connect-SDK-iOS/modules/firetv/Frameworks/AmazonFling.framework"; sourceTree = "<group>"; };
+		442762D91B012CF80045DC90 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		442762DB1B012D260045DC90 /* libc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libc++.dylib"; path = "usr/lib/libc++.dylib"; sourceTree = SDKROOT; };
+		44D72F181AC4D161006983FB /* ConnectSDK.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ConnectSDK.xcodeproj; path = "../Connect-SDK-iOS/ConnectSDK.xcodeproj"; sourceTree = "<group>"; };
+		44D72F231AC4D196006983FB /* GoogleCast.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleCast.framework; path = "../Connect-SDK-iOS/modules/google-cast/GoogleCast.framework"; sourceTree = "<group>"; };
+		44E98FEE1B20A7A80043BC70 /* ConnectSDKSamplerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ConnectSDKSamplerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		44E98FF11B20A7A80043BC70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		44E98FF21B20A7A80043BC70 /* ConnectSDKSamplerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ConnectSDKSamplerTests.m; sourceTree = "<group>"; };
+		767841EDABF1FE082857D6D4 /* Pods-ConnectSDKSamplerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ConnectSDKSamplerTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ConnectSDKSamplerTests/Pods-ConnectSDKSamplerTests.debug.xcconfig"; sourceTree = "<group>"; };
+		7EB4D323E0385883ADD1303E /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA099894185146830072824C /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
 		EA0998A1185147070072824C /* libicucore.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libicucore.dylib; path = usr/lib/libicucore.dylib; sourceTree = SDKROOT; };
 		EA09EFA51875E7EB008E6839 /* MainStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainStoryboard.storyboard; sourceTree = "<group>"; };
@@ -97,24 +152,78 @@
 		EA9E48A5186DFCFD002DE134 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		EA9E48A6186DFCFD002DE134 /* ConnectSDKSampler-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "ConnectSDKSampler-Info.plist"; sourceTree = "<group>"; };
 		EA9E48A7186DFCFD002DE134 /* ConnectSDKSampler-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ConnectSDKSampler-Prefix.pch"; sourceTree = "<group>"; };
+		FED4874226E1EE3CB676083F /* libPods-ConnectSDKSamplerTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ConnectSDKSamplerTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		44E98FEB1B20A7A80043BC70 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30BC37921653E5AA94E63B57 /* libPods-ConnectSDKSamplerTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		EA7E00A9184402B20089FA62 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				442762DC1B012D260045DC90 /* libc++.dylib in Frameworks */,
+				442762DA1B012CF80045DC90 /* AdSupport.framework in Frameworks */,
+				44D72F241AC4D196006983FB /* GoogleCast.framework in Frameworks */,
+				44D72F221AC4D16B006983FB /* libConnectSDK.a in Frameworks */,
 				EA0998A2185147070072824C /* libicucore.dylib in Frameworks */,
 				EA099895185146830072824C /* libz.dylib in Frameworks */,
 				EA7E00B2184402B20089FA62 /* CoreGraphics.framework in Frameworks */,
 				EA7E00B4184402B20089FA62 /* UIKit.framework in Frameworks */,
 				EA7E00B0184402B20089FA62 /* Foundation.framework in Frameworks */,
+				442762D81B012CCD0045DC90 /* AmazonFling.framework in Frameworks */,
+				442762D31B012B280045DC90 /* Bolts.framework in Frameworks */,
+				BEF557D69A067687221350BD /* libPods-ConnectSDKSampler.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		44D72F191AC4D161006983FB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				44D72F1F1AC4D161006983FB /* libConnectSDK.a */,
+				44D72F211AC4D161006983FB /* ConnectSDKTests.xctest */,
+				44ADEAB51B1903E900D17687 /* ConnectSDKIntegrationTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		44E98FEF1B20A7A80043BC70 /* ConnectSDKSamplerTests */ = {
+			isa = PBXGroup;
+			children = (
+				44E98FF21B20A7A80043BC70 /* ConnectSDKSamplerTests.m */,
+				44E98FF01B20A7A80043BC70 /* Supporting Files */,
+			);
+			path = ConnectSDKSamplerTests;
+			sourceTree = "<group>";
+		};
+		44E98FF01B20A7A80043BC70 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				44E98FF11B20A7A80043BC70 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6F3D44FC0D0B52D8DA03873B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3BBE8DDEDABB1EAFF0E141E1 /* Pods-ConnectSDKSampler.debug.xcconfig */,
+				17C49D74943D3BE5906150DB /* Pods-ConnectSDKSampler.release.xcconfig */,
+				767841EDABF1FE082857D6D4 /* Pods-ConnectSDKSamplerTests.debug.xcconfig */,
+				3DA1D65DFB299982184DDB83 /* Pods-ConnectSDKSamplerTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		EA09EFA71875E82A008E6839 /* Content */ = {
 			isa = PBXGroup;
 			children = (
@@ -226,8 +335,10 @@
 			isa = PBXGroup;
 			children = (
 				EA9E4895186DFCFD002DE134 /* ConnectSDKSampler */,
+				44E98FEF1B20A7A80043BC70 /* ConnectSDKSamplerTests */,
 				EA7E00AE184402B20089FA62 /* Frameworks */,
 				EA7E00AD184402B20089FA62 /* Products */,
+				6F3D44FC0D0B52D8DA03873B /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -235,6 +346,7 @@
 			isa = PBXGroup;
 			children = (
 				EA7E00AC184402B20089FA62 /* ConnectSDKSampler.app */,
+				44E98FEE1B20A7A80043BC70 /* ConnectSDKSamplerTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -242,12 +354,21 @@
 		EA7E00AE184402B20089FA62 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				442762DB1B012D260045DC90 /* libc++.dylib */,
+				442762D91B012CF80045DC90 /* AdSupport.framework */,
+				442762D71B012CCD0045DC90 /* AmazonFling.framework */,
+				442762D21B012B280045DC90 /* Bolts.framework */,
+				44D72F231AC4D196006983FB /* GoogleCast.framework */,
+				44D72F181AC4D161006983FB /* ConnectSDK.xcodeproj */,
 				EA0998A1185147070072824C /* libicucore.dylib */,
 				EA099894185146830072824C /* libz.dylib */,
 				EA7E00AF184402B20089FA62 /* Foundation.framework */,
 				EA7E00B1184402B20089FA62 /* CoreGraphics.framework */,
 				EA7E00B3184402B20089FA62 /* UIKit.framework */,
 				EA7E00CE184402B20089FA62 /* XCTest.framework */,
+				7EB4D323E0385883ADD1303E /* libPods.a */,
+				3CDEAB448DFEC83449A0DFE1 /* libPods-ConnectSDKSampler.a */,
+				FED4874226E1EE3CB676083F /* libPods-ConnectSDKSamplerTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -282,15 +403,37 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		44E98FED1B20A7A80043BC70 /* ConnectSDKSamplerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 44E98FFC1B20A7A90043BC70 /* Build configuration list for PBXNativeTarget "ConnectSDKSamplerTests" */;
+			buildPhases = (
+				C03E91C719F8F545C569D891 /* Check Pods Manifest.lock */,
+				44E98FEA1B20A7A80043BC70 /* Sources */,
+				44E98FEB1B20A7A80043BC70 /* Frameworks */,
+				44E98FEC1B20A7A80043BC70 /* Resources */,
+				A162BFC8605F3DC2A7AF0456 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				44E98FF51B20A7A80043BC70 /* PBXTargetDependency */,
+			);
+			name = ConnectSDKSamplerTests;
+			productName = ConnectSDKSamplerTests;
+			productReference = 44E98FEE1B20A7A80043BC70 /* ConnectSDKSamplerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		EA7E00AB184402B20089FA62 /* ConnectSDKSampler */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = EA7E00DE184402B20089FA62 /* Build configuration list for PBXNativeTarget "ConnectSDKSampler" */;
 			buildPhases = (
+				B15EFBCF03FC3278A6830D7D /* Check Pods Manifest.lock */,
 				EA7E00A8184402B20089FA62 /* Sources */,
 				EA7E00AA184402B20089FA62 /* Resources */,
 				EA7E00A9184402B20089FA62 /* Frameworks */,
 				EA049F0118B29BB7000A1760 /* Bump version for Release builds */,
 				0F0347D21A83EEE600825C36 /* Save git info */,
+				4498388F0989EEE28C4B35C2 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -311,6 +454,10 @@
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = LGE;
 				TargetAttributes = {
+					44E98FED1B20A7A80043BC70 = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = EA7E00AB184402B20089FA62;
+					};
 					EA7E00AB184402B20089FA62 = {
 						DevelopmentTeam = DC4CN8HG54;
 					};
@@ -327,14 +474,52 @@
 			mainGroup = EA7E00A3184402B20089FA62;
 			productRefGroup = EA7E00AD184402B20089FA62 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 44D72F191AC4D161006983FB /* Products */;
+					ProjectRef = 44D72F181AC4D161006983FB /* ConnectSDK.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				EA7E00AB184402B20089FA62 /* ConnectSDKSampler */,
+				44E98FED1B20A7A80043BC70 /* ConnectSDKSamplerTests */,
 			);
 		};
 /* End PBXProject section */
 
+/* Begin PBXReferenceProxy section */
+		44ADEAB51B1903E900D17687 /* ConnectSDKIntegrationTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = ConnectSDKIntegrationTests.xctest;
+			remoteRef = 44ADEAB41B1903E900D17687 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		44D72F1F1AC4D161006983FB /* libConnectSDK.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libConnectSDK.a;
+			remoteRef = 44D72F1E1AC4D161006983FB /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		44D72F211AC4D161006983FB /* ConnectSDKTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = ConnectSDKTests.xctest;
+			remoteRef = 44D72F201AC4D161006983FB /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
 /* Begin PBXResourcesBuildPhase section */
+		44E98FEC1B20A7A80043BC70 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		EA7E00AA184402B20089FA62 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -375,6 +560,66 @@
 			shellPath = /bin/sh;
 			shellScript = "#!/bin/sh\n\ngit_version=$(git log -1 --format=\"%h\")\ngit_branch=$(git symbolic-ref --short -q HEAD)\ngit_tag=$(git describe --tags --exact-match 2>/dev/null)\n\nbuild_time=$(date)\ngit_branch_or_tag=\"${git_branch:-${git_tag}}\"\n\ninfo_plist=\"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_FOLDER_PATH}/Info.plist\"\n/usr/libexec/PlistBuddy -c \"Set :GitInfo '${git_branch_or_tag}-${git_version}'\" \"${info_plist}\"";
 		};
+		4498388F0989EEE28C4B35C2 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ConnectSDKSampler/Pods-ConnectSDKSampler-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A162BFC8605F3DC2A7AF0456 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ConnectSDKSamplerTests/Pods-ConnectSDKSamplerTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B15EFBCF03FC3278A6830D7D /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C03E91C719F8F545C569D891 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
 		EA049F0118B29BB7000A1760 /* Bump version for Release builds */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -392,6 +637,14 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		44E98FEA1B20A7A80043BC70 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44E98FF31B20A7A80043BC70 /* ConnectSDKSamplerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		EA7E00A8184402B20089FA62 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -413,6 +666,14 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		44E98FF51B20A7A80043BC70 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EA7E00AB184402B20089FA62 /* ConnectSDKSampler */;
+			targetProxy = 44E98FF41B20A7A80043BC70 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin PBXVariantGroup section */
 		EA9E489A186DFCFD002DE134 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
@@ -425,6 +686,57 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		44E98FF61B20A7A90043BC70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 767841EDABF1FE082857D6D4 /* Pods-ConnectSDKSamplerTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				INFOPLIST_FILE = ConnectSDKSamplerTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ConnectSDKSampler.app/ConnectSDKSampler";
+			};
+			name = Debug;
+		};
+		44E98FF71B20A7A90043BC70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3DA1D65DFB299982184DDB83 /* Pods-ConnectSDKSamplerTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				INFOPLIST_FILE = ConnectSDKSamplerTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ConnectSDKSampler.app/ConnectSDKSampler";
+			};
+			name = Release;
+		};
 		EA7E00DC184402B20089FA62 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -457,7 +769,6 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				ONLY_ACTIVE_ARCH = YES;
 				OTHER_LDFLAGS = "";
 				PROVISIONING_PROFILE = "E9E4AEAE-997B-46AC-BF37-403D0B44D032";
@@ -491,7 +802,6 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				OTHER_LDFLAGS = "";
 				PROVISIONING_PROFILE = "E9E4AEAE-997B-46AC-BF37-403D0B44D032";
 				SDKROOT = iphoneos;
@@ -501,6 +811,7 @@
 		};
 		EA7E00DF184402B20089FA62 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3BBE8DDEDABB1EAFF0E141E1 /* Pods-ConnectSDKSampler.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD)";
@@ -508,6 +819,12 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/eugene/proj/Connect-SDK-iOS/modules/google-cast",
+					"/Users/eugene/proj/Connect-SDK-iOS/modules/firetv/Frameworks",
+					"$(PROJECT_DIR)/ConnectSDKSampler",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ConnectSDKSampler/ConnectSDKSampler-Prefix.pch";
 				GCC_WARN_ABOUT_MISSING_NEWLINE = YES;
@@ -532,6 +849,7 @@
 		};
 		EA7E00E0184402B20089FA62 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 17C49D74943D3BE5906150DB /* Pods-ConnectSDKSampler.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD)";
@@ -539,6 +857,12 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/eugene/proj/Connect-SDK-iOS/modules/google-cast",
+					"/Users/eugene/proj/Connect-SDK-iOS/modules/firetv/Frameworks",
+					"$(PROJECT_DIR)/ConnectSDKSampler",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ConnectSDKSampler/ConnectSDKSampler-Prefix.pch";
 				GCC_WARN_ABOUT_MISSING_NEWLINE = YES;
@@ -564,6 +888,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		44E98FFC1B20A7A90043BC70 /* Build configuration list for PBXNativeTarget "ConnectSDKSamplerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44E98FF61B20A7A90043BC70 /* Debug */,
+				44E98FF71B20A7A90043BC70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		EA7E00A7184402B20089FA62 /* Build configuration list for PBXProject "ConnectSDKSampler" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

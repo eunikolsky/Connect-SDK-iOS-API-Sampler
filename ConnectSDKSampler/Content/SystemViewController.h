@@ -15,7 +15,18 @@
 
 #import "BaseViewController.h"
 
+@interface SystemModel : NSObject
+
+// TODO use Maybe<BOOL> in case mute is inaccessible?!
+@property (nonatomic, assign) BOOL isMuted;
+
+@end
+
+
 @interface SystemViewController : BaseViewController<UITabBarDelegate, UITableViewDataSource>
+
+@property (nonatomic, strong) SystemModel *systemModel;
+
 
 @property (weak, nonatomic) IBOutlet UIStepper *volumeStepper;
 @property (weak, nonatomic) IBOutlet UISlider *volumeSlider;

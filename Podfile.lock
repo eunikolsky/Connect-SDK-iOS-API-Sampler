@@ -1,0 +1,27 @@
+PODS:
+  - Expecta (1.0.0)
+  - KIF (3.2.3):
+    - KIF/XCTest (= 3.2.3)
+  - KIF/XCTest (3.2.3)
+  - ReactiveCocoa (2.5):
+    - ReactiveCocoa/UI (= 2.5)
+  - ReactiveCocoa/Core (2.5):
+    - ReactiveCocoa/no-arc
+  - ReactiveCocoa/no-arc (2.5)
+  - ReactiveCocoa/UI (2.5):
+    - ReactiveCocoa/Core
+  - Specta (1.0.1)
+
+DEPENDENCIES:
+  - Expecta (~> 1.0.0)
+  - KIF (~> 3.2.3)
+  - ReactiveCocoa (~> 2.5)
+  - Specta (~> 1.0.1)
+
+SPEC CHECKSUMS:
+  Expecta: 32604574add2c46a36f8d2f716b6c5736eb75024
+  KIF: a94bffe9c97e449e44f8fa481c53243d21309e1e
+  ReactiveCocoa: e2db045570aa97c695e7aa97c2bcab222ae51f4a
+  Specta: 097be314a75de103703a3bf9a529dc1a398509d7
+
+COCOAPODS: 0.37.2

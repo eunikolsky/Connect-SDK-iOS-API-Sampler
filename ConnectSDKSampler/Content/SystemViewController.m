@@ -15,6 +15,16 @@
 
 #import "SystemViewController.h"
 
+#import <ReactiveCocoa/ReactiveCocoa.h>
+
+
+
+@implementation SystemModel
+
+@end
+
+
+
 @interface SystemViewController () <UITableViewDataSource, UITableViewDelegate>
 
 @end
@@ -27,6 +37,29 @@
     ServiceSubscription *_muteSubscription;
     ServiceSubscription *_volumeSubscription;
 }
+
+
+#pragma mark - Reactive
+
+- (void)viewDidLoad {
+    [super viewDidLoad];
+    [self setupReactive];
+}
+
+- (void)setupReactive {
+    // TODO use DI
+    NSAssert(self.systemModel, @"");
+//    self.systemModel = [SystemModel new];
+
+    RACObserve(self.systemModel, isMuted);
+
+//    self.muteSwitch.on = YES;
+    [self.muteSwitch.rac_newOnChannel subscribeNext:^(id x) {
+        NSLog(@"ssss");
+    }];
+}
+
+#pragma mark -
 
 - (void)addSubscriptions
 {
